@@ -1,0 +1,34 @@
+# Gradle files
+.gradle/
+build/
+app/build/
+
+# Local configuration files (contains local SDK paths, API keys, etc.)
+local.properties
+
+# IntelliJ IDEA & Android Studio files
+.idea/
+*.iml
+.navigation/
+captures/
+.cxx/
+ext/
+
+# Kotlin / KSP
+.kotlin/
+.kotlin-lsp/
+build-cache/
+
+# Built binaries and packages
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Log files
+*.log
+
+# OS / System files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#00BFA5"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0"/>
+    <!-- Wi-Fi arc 1 (outer) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,38c-8.84,0 -16,7.16 -16,16h4c0,-6.63 5.37,-12 12,-12s12,5.37 12,12h4c0,-8.84 -7.16,-16 -16,-16z"
+        android:strokeWidth="0"/>
+    <!-- Wi-Fi arc 2 (middle) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,46c-4.42,0 -8,3.58 -8,8h4c0,-2.21 1.79,-4 4,-4s4,1.79 4,4h4c0,-4.42 -3.58,-8 -8,-8z"
+        android:strokeWidth="0"/>
+    <!-- Wi-Fi dot (center) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+    <!-- Chart bar left -->
+    <path
+        android:fillColor="#E0F2F1"
+        android:pathData="M38,62h6v12h-6z"/>
+    <!-- Chart bar center -->
+    <path
+        android:fillColor="#E0F2F1"
+        android:pathData="M48,58h6v16h-6z"/>
+    <!-- Chart bar right -->
+    <path
+        android:fillColor="#E0F2F1"
+        android:pathData="M58,64h6v10h-6z"/>
+</vector>
